@@ -32,6 +32,7 @@ span {
   padding: 10px;
   width: 30px;
   height: 30px;
+  line-height: 0.8rem;
   border-radius: 50%;
   color: white;
   }
@@ -148,6 +149,10 @@ p{
   clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0 100%, 0 0);
 }
 
+.icons-main{
+  color:orange;
+  margin-left:8px;
+}
 
 aside {
   margin-top: 20px;
@@ -198,11 +203,11 @@ h2 {
 
 .article-aside > ul > li+li{
   border-top: 1px solid rgb(179, 175, 175, 0.8);
-  }
+}
 
-  .article-aside> ul Li{
+.article-aside> ul Li{
     padding: 15px  0 15px;
-  }
+}
 
 .img-aside{
 width: 80px;
@@ -245,7 +250,6 @@ color: rgb(179, 175, 175, 0.8);
 font-size: 0.9rem;
 }
 
-
 footer {
   display: flex;
   flex-wrap: wrap;
@@ -262,20 +266,21 @@ footer a{
   color: inherit;
   }
 
-  footer a+a{
-   margin-left:20px;
+footer i+i{
+     margin-left: 20px;
    }
 
-   footer p{
+footer p{
     width: auto;
   }
    
-   @media all and (max-width:710px){
+@media all and (max-width:710px) {
     .nav-list{display: none;}
      }
 
-  @media all and (max-width:1065px){
-      aside{ 
-        width: 100%;}
+@media all and (max-width:1065px) {
+      aside { 
+        width: 100%;
+      }
        }
 
